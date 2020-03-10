@@ -15,4 +15,4 @@ do
     sleep 10
 done
 
-su www-data -s /bin/sh -c 'php /var/www/seat/artisan horizon'
+su -s /bin/sh -c 'php /var/www/seat/artisan horizon'
