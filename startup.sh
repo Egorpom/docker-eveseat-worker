@@ -15,4 +15,4 @@ do
     sleep 10
 done
 
-su -s /bin/sh -c 'php /var/www/seat/artisan horizon'
+su root -s /bin/sh -c 'php /var/www/seat/artisan horizon'
